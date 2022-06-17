@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+:root{
+    --cor01: #F28A83;
+    --cor02: #D93F34;
+    --cor03:#610700;
+    --cor04: #A83128;
+    --font01: 'Parisienne', cursive;
+    --font02: Arial, Helvetica, sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+} 
+body{
+    background-color: var(--cor01);
+}
+header {
+    background: var(--cor01) url('../imagens/capa.png') no-repeat center center scroll;
+    background-size:contain;
+    max-width:900px;
+    height:35vh;
+    margin:auto;
+}
+header h1 {
+    display:none;
+}
+nav {
+    background-color:var(--cor01);
+    color: var(--cor03);
+    
+}
+nav ul {
+    font: 2.2vw var(--font01);
+    padding-left:20px;
+    
+    
+}
+nav li {
+    display:inline-block;
+    
+}
+nav a {
+    text-decoration: none;
+    color:var(--cor03);
+    text-transform: lowercase;
+    padding:5px;  
+    transition: 0.5s;
+}
+nav a:hover {
+    background-color:var(--cor04);
+    text-decoration:underline;
+    color:var(--cor01)
+}
+
+main{
+    max-width:600px;
+    margin:auto;
+    background-color: white;
+    margin-top:10px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 1px 1px 1px black;
+    font-family: var(--font02);
+}
+img{
+    max-width:500px;
+    padding-left:50px;
+    
+}
+h2{
+    text-align:center;
+}
+
+main p {
+    text-align: justify;
+    padding:10px;
+}
+footer {
+    text-align: center;
+    font: 1.5vw var(--font01);
+    color:var(--cor03);
+    margin-top:10px;
+}
