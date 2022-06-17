@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV e SPAN</title>
+    <style>
+       #header img{
+            width:20vw;
+        }
+        #header ul{
+            list-style:none;
+            display:inline-block;
+            position:absolute;
+            left: 65vw;
+        }
+        #header li{
+            display:inline-block;
+            padding:1px;
+        }
+            
+        #header h1{
+            display:inline-block;
+            position:absolute;
+            left:38vw;
+            font-size:7vw;
+        }
+        #header h2{
+          text-align: center;
+          margin:-50px;
+          font-size:3vw;
+        }
+        #corpo{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .produto {
+            display: inline-block;
+            border: 1px solid black;
+            margin-top:100px;
+            padding: 10px;
+            margin-left:3vw; 
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="images/amazon_icon.png" alt="Logo da Amazon">
+        <h1>Amazon</h1>
+       
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li><a href="#">Lista de Desejo</a></li>
+        </ul>
+        <h2>Tudo de A à Z</h2>
+    </div>
+    <div id="corpo">
+        
+        <div class="produto">
+            <h2>Produto 1</h2>
+        </div>
+        <div class="produto">
+            <h2>produto 2</h2>
+        </div>
+
+        <div class="produto">
+            <h2>prdduto3</h2>
+        </div>
+
+    </div>
+</body>
+</html>
