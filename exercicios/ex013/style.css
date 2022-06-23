@@ -6,23 +6,43 @@ body{
 
 }
 #container{
-    width:720px;
+    width:85%;
     margin: 0 auto;
     background:#fff;
+    min-width:730px;
+    max-width: 960px;
 }
 #marca {
-    height:100px;
-    background: #9e9e9e;
+    width:100%;
+    height:200px;
+    background: #225992 url('images/cabecalho2.jpg') no-repeat center center;
     text-align:center;
-    line-height: 100px;
+    line-height: 200px;
+    min-width:820px;
 }
 #conteudo{ /*o conteúdo veio primeiro no html para leitores de tela*/
-    width:520px;
+    width:74%;
+   float:right;
+}
+#conteudo1 {
+    width:64%;
+    float:left;
+    padding:5px;
+    text-align:justify;
+}
+#conteudo2 {
+    width:28%;
     float:right;
-    
+    padding:5px;
+    text-align: justify;
+}
+img.noticia {
+    width:90%;
+    padding:5px;
+    max-width:600px;
 }
 #navegacao {
-    width:180px;
+    width:23%;
     float:left;
     padding-top:20px;
     padding-bottom:20px;

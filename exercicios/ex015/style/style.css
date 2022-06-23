@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset{
+    padding:1em;
+    border:1px solid black;
+    background: #f8f8f8;
+    margin: 1em 0px 0 px 1em;
+}
+legend{
+    font-weight:bold;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="url"] {
+    width:300px;
+}
+textarea {
+    width:500px;
+}
