@@ -12,8 +12,10 @@ body{
     background: url('../imagens/fundo.png') repeat-x;
     background-size:contain;
     height:250px;
-    position:fixed;
     width:100%;
+    top:0;
+    position:fixed;
+    
 }
 #cabecalho1 {
     width:60%;
@@ -26,19 +28,68 @@ nav ul{
     list-style-type: none;
     background: #b10333;
     float:left;
+    border-radius:10px;
+    font-size:1vw;
 }
 nav li{
     padding:10px;
     margin: 0px;
     float:left;
+    border-right:1px solid black;
+    transition:0.5s;
+    
+    
 }
 nav li a {
     color: #fff;
     text-decoration:none;
     display:block;
     padding:0.5em 1.0em;
-       
+}
+nav li.ultima {
+    border:none;
 }
 #cabecalho1 h1{
     display:none;
+}
+nav li:hover{
+    background:#eb0143; 
+}
+nav li.atual {
+    background:#eb0143; 
+}
+
+main {
+    clear:both;
+    padding-top:250px;
+    width:65vw;
+    margin: auto;
+}
+#tres-colunas #primario {
+    width:25vw;
+    float:left;
+    border:1px solid black;
+    margin: 0px 0vw 20px 7vw;
+}
+#duas-colunas #primario {
+    width:52vw;
+    float:left;
+    border:1px solid black;
+    margin: 0px 0vw 20px 7vw;
+}
+#secundario {
+    width:25vw;
+    float:left;
+    border:1px solid black;
+    margin: 0px 0px 20px 2vw;
+}
+#lateral {
+    width:10vw;
+    float:left;
+    border:1px solid black;
+    margin:0px 0px 20px -64vw;
+}
+
+.entrevistas h2{
+    color:#fff;
 }
