@@ -21,11 +21,21 @@ ul{
     
 }
 #cabecalho1 {
-    width:60%;
+    min-width:500px;
+    max-width:800px;
     padding:50px;
     margin:auto;
     background: url('../imagens/detalhe-topo.png') no-repeat right top;
 }
+#cabecalho1 img{
+    margin-left:60px;
+}
+    nav{
+        margin-left:80px;
+        min-width:40vw;
+        max-height:20px;
+    }
+
 nav ul{
     margin-top:20px;
     list-style-type: none;
@@ -33,9 +43,10 @@ nav ul{
     float:left;
     border-radius:10px;
     font-size:1vw;
+
 }
 nav li{
-    padding:10px;
+    padding:5px;
     margin: 0px;
     float:left;
     border-right:1px solid black;
