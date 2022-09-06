@@ -8,30 +8,47 @@
     <style>
     #conteudo{
         background: #dcdcdc;
-        height:400px;
         display:flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        width:600px;
-        justify-content:center;
+        /*flex-wrap: nowrap;*/
+        /*flex-direction: row;*/
+       
+        /*justify-content:center;*/
+        align-items: flex-start;
+        height:1000px;
         
     }
     .item{
         background:white;
         border:1px solid black;
         margin:10px;
-        height:100px;
-        width:200px;
+        /*width:200px;*/
+        height: 100px;
+    
+    }
+    div#n1 {
+        order: 1;
+        flex-shrink: 2;
+        flex-basis: 100px;
+    }
+    div#n2 {
+        order: 2;
+    }
+    div#n3 {
+        order: 4;
+    }
+    div#n4 {
+        order: 3;
+        flex-shrink: 5;
     }
     </style>
 </head>
 <body>
     <h1>Flexbox: aprendendo a usar:</h1>
     <div id="conteudo">
-        <div class="item">Item 01</div>
-        <div class="item">Item 02</div>
-        <div class="item">Item 03</div>
-        <div class="item">Item 04</div>
+        <div class="item" id="n1">Item 01</div>
+        <div class="item" id="n2">Item 02</div>
+        <div class="item" id="n3">Item 03</div>
+        <div class="item" id="n4">Item 04</div>
     </div>
 </body>
 </html>
